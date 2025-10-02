@@ -8,7 +8,7 @@ public class Main {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
         IAnimal cat = ctx.getBean("myCat", IAnimal.class);
         IAnimal mouse = ctx.getBean("myMouse", IAnimal.class);
-        Dog dog = ctx.getBean("myDog", Dog.class);
+        IAnimal dog = ctx.getBean("myDog",  IAnimal.class);
 
         System.out.println(dog.makeSound());
         System.out.println(cat.makeSound());
