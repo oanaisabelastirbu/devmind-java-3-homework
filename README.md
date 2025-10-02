@@ -1,2 +1,2 @@
 # devmind-java-3-homework
-Module 3 – Oana-Isabela Stirbu
+ Name: Oana-Isabela Stirbu
